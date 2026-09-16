@@ -16,6 +16,7 @@ function login(username, password) {
   if (lockedAccounts.includes(username)) {
     return false;
   }
+// Xác thực đăng nhập người dùng - kiểm tra username/password hợp lệ
 
   return validCredentials[username] === password;
 }
