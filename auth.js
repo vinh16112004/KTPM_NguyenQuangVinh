@@ -1,5 +1,5 @@
 const validCredentials = {
-  admin: '123',
+  admin: '9999',
 };
 
 const lockedAccounts = ['locked_user'];
